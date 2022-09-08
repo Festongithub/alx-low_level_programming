@@ -1,1 +1,1 @@
-Intel
+ UNIX 
