@@ -1,1 +1,1 @@
- a program that prints the alphabet in lowercas
+ a program that prints all single digit numbers of base 10 starting from 0,
