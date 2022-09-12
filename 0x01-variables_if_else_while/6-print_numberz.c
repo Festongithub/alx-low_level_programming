@@ -4,7 +4,7 @@
  * main - this the main function
  * description -prints all single digit number of base 10 starting from 0
  */
-void  main(void)
+int main(void)
 {
 	int n;
 
