@@ -12,14 +12,6 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *ptr;
-
-	while (n > 0)
-	{
-		*ptr = b;
-		ptr++;
-		n--;
-	}
-
+	memset(s, b, n);
 	return (s);
 }
