@@ -10,6 +10,6 @@
 
 int main(void)
 {
-	printf("FILE :%s\n", __FILE__);
+	printf("FILE :%s\n", __BASE_FILE__);
 	return (0);
 }
