@@ -1,21 +1,23 @@
-#include <stdio.h>
 #include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 
 /**
- * init_dog - initialize a variable of type struct dog
- * @d: pointer to variable to be initialized
- * @name: name to initialize the variable with in field name
- * @age: age to initialize the variable with in field age
- * @owner: name of the owner to initialize the variable in field owner
- *
- * Return: void
- */
+* init_dog - inits a variable of
+* type dog
+* @d: dog identification
+* @name: name of dog
+* @age: age of dog
+* @owner: owner's name
+*/
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == 0)
-		return;
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
+	if (d != NULL)
+	{
+		(*d).name = name;
+		(*d).age = age;
+		(*d).owner = owner;
+	}
 }
